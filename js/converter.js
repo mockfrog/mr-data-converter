@@ -21,6 +21,7 @@ function DataConverter(nodeId) {
                                 {"text":"ASP/VBScript",           "id":"asp",              "notes":""},
                                 {"text":"HTML",                   "id":"html",             "notes":""},
                                 {"text":"JSON - Properties",      "id":"json",             "notes":""},
+                                {"text":"JSON - Simple (one-off)",  "id":"jsonSimple",       "notes":""},
                                 {"text":"JSON - Column Arrays",   "id":"jsonArrayCols",    "notes":""},
                                 {"text":"JSON - Row Arrays",      "id":"jsonArrayRows",    "notes":""},
                                 {"text":"JSON - Dictionary",      "id":"jsonDict",         "notes":""},
@@ -30,7 +31,9 @@ function DataConverter(nodeId) {
                                 {"text":"Ruby",                   "id":"ruby",             "notes":""},
                                 {"text":"XML - Properties",       "id":"xmlProperties",    "notes":""},
                                 {"text":"XML - Nodes",            "id":"xml",              "notes":""},
-                                {"text":"XML - Illustrator",      "id":"xmlIllustrator",   "notes":""}];
+                                {"text":"XML - Illustrator",      "id":"xmlIllustrator",   "notes":""},
+                                {"text":"YAML - beta",            "id":"yaml",             "notes":""},
+                                {"text":"Redmine Table - beta",   "id":"rmtable",          "notes":""}];
   this.outputDataType         = "json";
 
   this.columnDelimiter        = "\t";
